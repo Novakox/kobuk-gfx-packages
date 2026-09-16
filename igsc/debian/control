@@ -22,8 +22,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- libmetee5,
- libigsc0 (= ${binary:Version}), 
+ libmetee6,
+ libigsc1 (= ${binary:Version}), 
  libudev1,
 Description: Intel(R) Graphics System Controller Firmware Update Library
  Intel(R) Graphics System Controller Firmware Update Library (IGSC FU)
@@ -38,9 +38,11 @@ Description: Intel(R) Graphics System Controller Firmware Update Library
  Orthogonally the API provides facility to update GSC Firmware and the OPROM 
  image.
 
-Package: libigsc0
+Package: libigsc1
 Section: libs
 Architecture: amd64
+Breaks: libigsc0
+Replaces: libigsc0
 Provides: intel-gsc
 Depends:
  ${shlibs:Depends},
@@ -67,7 +69,7 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- libigsc0 (= ${binary:Version}),
+ libigsc1 (= ${binary:Version}),
  libmetee-dev,
  libudev1,
 Description: Intel(R) Graphics System Controller Firmware Update Library
