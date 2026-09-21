@@ -1,3 +1,9 @@
+xpumanager (2.1.0-1~26.04~ppa4) resolute; urgency=medium
+
+  * Rebuild against libmetee6 + libigsc1
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Fri, 18 Sep 2026 23:41:42 +0200
+
 xpumanager (2.1.0-1~26.04~ppa3) resolute; urgency=medium
 
   * rules: -Dwerror=false to tolerate gcc13 Wstringop-overflow on noble
