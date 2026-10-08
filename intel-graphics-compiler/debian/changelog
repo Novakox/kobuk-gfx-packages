@@ -5,6 +5,12 @@ intel-graphics-compiler (2.41.9+ds1-1~26.04) resolute; urgency=medium
 
  -- Savo Novakovic <savo.novakovic@intel.com>  Fri, 18 Sep 2026 18:09:56 +0200
 
+intel-graphics-compiler (2.40.13+ds1-1~26.04) resolute; urgency=medium
+
+  * rules: bump vendored translator + SPIRV refs
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Thu, 27 Aug 2026 15:34:56 +0200
+
 intel-graphics-compiler (2.40.13-1~26.04) resolute; urgency=medium
 
   * New release v2.40.13
