@@ -1,3 +1,9 @@
+libvpl-disp (1:2.17.0-1~26.04~ppa1) resolute; urgency=medium
+
+  * Update to version 2.17.0
+
+ -- Savo Novakovic <savo.novakovic@intel.com>  Mon, 21 Sep 2026 21:10:24 +0200
+
 libvpl-disp (1:2.16.0-1~25.10~ppa1) questing; urgency=medium
 
   * Update to version 2.16.0
